@@ -14,9 +14,23 @@ const navigation = useNavigation();
       <Text style={styles.paragraph}>
         "Tenho uma apresentação totalmente alinhada para você esta noite"
       </Text>
-      <Image source={{uri:"https://preview.redd.it/black-sapphire-cookie-in-gl2-v0-efpatek1e9fe1.jpg?width=457&format=pjpg&auto=webp&s=9e92988bce06e5be3469d6b79d3b0658604de72d"}} style={{width:400, height:300, marginLeft:45, marginBottom:20, marginTop:40, borderRadius: 100, alignSelf: 'center'}}
+      <Image source={{uri:"https://preview.redd.it/black-sapphire-cookie-in-gl2-v0-efpatek1e9fe1.jpg?width=457&format=pjpg&auto=webp&s=9e92988bce06e5be3469d6b79d3b0658604de72d"}} 
+      style={{
+        width:400, 
+        height:300, 
+        marginLeft:45, 
+        marginBottom:20, 
+        marginTop:40, 
+        borderRadius: 100, 
+        alignSelf: 'center'
+      }}
       />
-      <Card style={{backgroundColor: '#000000', borderWidth: 6, borderColor: '#ffffff', margin:20}}>
+      <Card style={{
+        backgroundColor: '#000000', 
+        borderWidth: 6, 
+        borderColor: '#ffffff', 
+        margin:20}}
+      >
         <Text style={styles.Text}>
           Agradecemos qualquer ato teatral de sua gratidão!
         </Text>

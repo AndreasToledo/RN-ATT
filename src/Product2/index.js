@@ -10,7 +10,15 @@ export default function App() {
       <Text style={styles.paragraph}>
         "Sériamente... Quem poderia dizer não a boa e velha enganação!"
       </Text>
-      <Image source={{uri:"https://i5.walmartimages.com/seo/Shadow-Milk-Cookie-Plush-Shadow-Milk-Cookie-Plushie-Shadow-Milk-Plush-Cookie-Run-Kingdom-Merch-Gift-for-Fans_cd7cd5d1-9b95-40dc-bfdd-936037695ed9.fb06e3fe063a778f2ea1d17cde9c6a4b.png?odnHeight=640&odnWidth=640&odnBg=FFFFFF"}} style={{width:300, height:200, marginBottom:20, marginTop:40, borderRadius: 20, alignSelf: 'center'}}
+      <Image source={{uri:"https://i5.walmartimages.com/seo/Shadow-Milk-Cookie-Plush-Shadow-Milk-Cookie-Plushie-Shadow-Milk-Plush-Cookie-Run-Kingdom-Merch-Gift-for-Fans_cd7cd5d1-9b95-40dc-bfdd-936037695ed9.fb06e3fe063a778f2ea1d17cde9c6a4b.png?odnHeight=640&odnWidth=640&odnBg=FFFFFF"}} 
+      style={{
+        width:300, 
+        height:200, 
+        marginBottom:20, 
+        marginTop:40, 
+        borderRadius: 20, 
+        alignSelf: 'center'
+      }}
       />
       <Text style={styles.Price}>
         R$65 
